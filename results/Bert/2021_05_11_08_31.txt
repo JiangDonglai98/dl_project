@@ -1,0 +1,39 @@
+Bert_dict_key = Bert(15,17)1
+startDate = 20170101
+splitDate = 2019-06-01
+endDate = 20191231
+batchsize = 16
+epochs = 5
+num_labels = 6
+sentence length = 256
+training_stats = [{'Training Loss': tensor(1.7863, device='cuda:0', grad_fn=<DivBackward0>),
+  'Training Time': '0:00:53',
+  'Valid. Accur.': 0.2526041666666667,
+  'Valid. Loss': tensor(1.7671, device='cuda:0'),
+  'Validation Time': '0:00:06',
+  'epoch': 1},
+ {'Training Loss': tensor(1.7097, device='cuda:0', grad_fn=<DivBackward0>),
+  'Training Time': '0:00:52',
+  'Valid. Accur.': 0.21961805555555555,
+  'Valid. Loss': tensor(1.7811, device='cuda:0'),
+  'Validation Time': '0:00:06',
+  'epoch': 2},
+ {'Training Loss': tensor(1.6186, device='cuda:0', grad_fn=<DivBackward0>),
+  'Training Time': '0:00:52',
+  'Valid. Accur.': 0.234375,
+  'Valid. Loss': tensor(1.7997, device='cuda:0'),
+  'Validation Time': '0:00:06',
+  'epoch': 3},
+ {'Training Loss': tensor(1.4768, device='cuda:0', grad_fn=<DivBackward0>),
+  'Training Time': '0:00:52',
+  'Valid. Accur.': 0.25,
+  'Valid. Loss': tensor(1.8227, device='cuda:0'),
+  'Validation Time': '0:00:06',
+  'epoch': 4},
+ {'Training Loss': tensor(1.3783, device='cuda:0', grad_fn=<DivBackward0>),
+  'Training Time': '0:00:52',
+  'Valid. Accur.': 0.2265625,
+  'Valid. Loss': tensor(1.8294, device='cuda:0'),
+  'Validation Time': '0:00:06',
+  'epoch': 5}]
+torch.cuda.memory_cached()/1024**2= 6874.0
